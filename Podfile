@@ -1,0 +1,10 @@
+platform :ios,'7.0'
+
+pod 'NSString-Hashes', '~> 1.2.1'
+pod 'SDWebImage', '~> 3.6'
+pod 'UIColor-Utilities', '~> 1.0.1'
+pod 'RTLabel', '~> 1.0'
+pod 'MBProgressHUD'
+pod 'iToast'
+pod 'CocoaHTTPServer', '~> 2.3'
+pod 'Google-Mobile-Ads-SDK', '~> 6.10'

@@ -1,0 +1,43 @@
+PODS:
+  - CocoaAsyncSocket (7.3.5)
+  - CocoaHTTPServer (2.3):
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+  - CocoaLumberjack (1.9.2):
+    - CocoaLumberjack/Extensions (= 1.9.2)
+  - CocoaLumberjack/Core (1.9.2)
+  - CocoaLumberjack/Extensions (1.9.2):
+    - CocoaLumberjack/Core
+  - Google-Mobile-Ads-SDK (6.12.2)
+  - iToast (0.0.1)
+  - MBProgressHUD (0.9)
+  - NSString-Hashes (1.2.2)
+  - RTLabel (1.0)
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core (= 3.7.1)
+  - SDWebImage/Core (3.7.1)
+  - UIColor-Utilities (1.0.1)
+
+DEPENDENCIES:
+  - CocoaHTTPServer (~> 2.3)
+  - Google-Mobile-Ads-SDK (~> 6.10)
+  - iToast
+  - MBProgressHUD
+  - NSString-Hashes (~> 1.2.1)
+  - RTLabel (~> 1.0)
+  - SDWebImage (~> 3.6)
+  - UIColor-Utilities (~> 1.0.1)
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 45bdbbc1c0a5ed0640ff4c42af325ba43a2f099a
+  CocoaHTTPServer: 217df4cba4e48803db2480f97b805aaad2230dd1
+  CocoaLumberjack: 205769c032b5fef85b92472046bcc8b7e7c8a817
+  Google-Mobile-Ads-SDK: 9761186eb5dc5e1493e71dcce2b525159f763d42
+  iToast: 4de112d3dd42a3a8bf685572e6cda723c9cbc4f2
+  MBProgressHUD: 2038dbcf3dce73215abed6001657043d53aa79a8
+  NSString-Hashes: ddf6e856e93d3c83c5d4ef8fcdea2a96ed77c6bc
+  RTLabel: 03deb1a0c2784e987d6e5b731d7e29f5125301e3
+  SDWebImage: 116e88633b5b416ea0ca4b334a4ac59cf72dd38d
+  UIColor-Utilities: 3f13aebe447f5e19c8d3aa18c194c53116b23537
+
+COCOAPODS: 0.35.0
