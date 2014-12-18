@@ -14,6 +14,8 @@
 		844A827B1A3E908E0093AA50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844A827A1A3E908E0093AA50 /* Images.xcassets */; };
 		844A827E1A3E908E0093AA50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844A827C1A3E908E0093AA50 /* LaunchScreen.xib */; };
 		844A828A1A3E908E0093AA50 /* WFlashDiskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844A82891A3E908E0093AA50 /* WFlashDiskTests.m */; };
+		8464BAD01A42B157003B5758 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8464BACE1A42B157003B5758 /* AboutViewController.m */; };
+		8464BAD11A42B157003B5758 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8464BACF1A42B157003B5758 /* AboutViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		844A82831A3E908E0093AA50 /* WFlashDiskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFlashDiskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		844A82881A3E908E0093AA50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		844A82891A3E908E0093AA50 /* WFlashDiskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFlashDiskTests.m; sourceTree = "<group>"; };
+		8464BACD1A42B157003B5758 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		8464BACE1A42B157003B5758 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		8464BACF1A42B157003B5758 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
 		989E5784176EB3FCE102A57B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B8B4BADE2D45082458C0B5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +104,9 @@
 				844A82721A3E908E0093AA50 /* AppDelegate.m */,
 				844A82741A3E908E0093AA50 /* ViewController.h */,
 				844A82751A3E908E0093AA50 /* ViewController.m */,
+				8464BACD1A42B157003B5758 /* AboutViewController.h */,
+				8464BACE1A42B157003B5758 /* AboutViewController.m */,
+				8464BACF1A42B157003B5758 /* AboutViewController.xib */,
 				844A827A1A3E908E0093AA50 /* Images.xcassets */,
 				844A827C1A3E908E0093AA50 /* LaunchScreen.xib */,
 				844A826D1A3E908E0093AA50 /* Supporting Files */,
@@ -223,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				844A827E1A3E908E0093AA50 /* LaunchScreen.xib in Resources */,
+				8464BAD11A42B157003B5758 /* AboutViewController.xib in Resources */,
 				844A827B1A3E908E0093AA50 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +285,7 @@
 			files = (
 				844A82761A3E908E0093AA50 /* ViewController.m in Sources */,
 				844A82731A3E908E0093AA50 /* AppDelegate.m in Sources */,
+				8464BAD01A42B157003B5758 /* AboutViewController.m in Sources */,
 				844A82701A3E908E0093AA50 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
