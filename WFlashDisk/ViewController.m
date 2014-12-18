@@ -30,7 +30,7 @@
     
     GADRequest *request = [GADRequest request];
     // Enable test ads on simulators.
-    //request.testDevices = @[ GAD_SIMULATOR_ID, @"MY_TEST_DEVICE_ID" ];
+    request.testDevices = @[ GAD_SIMULATOR_ID, @"MY_TEST_DEVICE_ID" ];
     [self.bannerView loadRequest:request];
 }
 
